@@ -24,8 +24,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>Application of Convolutional Neural Network for Semantic Segmentation of Bandung Urban Scenes</title>
+  <link
+  rel="icon"
+  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👀</text></svg>"
+  ></link>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,28 +55,31 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Application of Convolutional Neural Network for Semantic Segmentation of Bandung Urban Scenes</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Daniel Alexander</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://scholar.google.com/citations?user=s51dQZYAAAAJ&hl=en" target="_blank">Hans Christian Kurniawan</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Irfin Afifudin</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hery Heryanto</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Harapan Bangsa Institute of Technology<br>2022
+                      International Conference on Data and Software Engineering (ICoDSE)</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://ieeexplore.ieee.org/document/9972006" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -81,39 +87,6 @@
                         <span>Paper</span>
                       </a>
                     </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -125,15 +98,11 @@
 
 <!-- Teaser video-->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container is-max-desktop ">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/overview.gif" alt="Overview"/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        The Bandung Cityscapes dataset used as the object of this study
       </h2>
     </div>
   </div>
@@ -148,7 +117,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Semantic segmentation is the process of classifying each pixel in an image into one of the predesignated classes. In its application for self-driving systems, semantic segmentation is used to identify objects and road conditions to make the right control decisions. This work uses the convolutional neural network method to perform semantic segmentation with the DeepLabV3+ architecture. Object of study is the urban scene dataset called Bandung Cityscapes collected around the city of Bandung, West Java, Indonesia and annotated by hand. Architecture testing is performed by combining the values of epoch, learning rate, and number of convolution filters to find the best mean intersection over union accuracy. The most optimal model achieved the highest average accuracy of 77.431% on the validation set, attained by the model with 128 convolutional filters, trained with 300 epochs and 0.0001 (10-4) learning rate. This model maintained an average training accuracy of 87.194%, average validation accuracy of 75.274%, and average difference between the two of 11.919% throughout the training process.
           </p>
         </div>
       </div>
@@ -157,61 +126,102 @@
 </section>
 <!-- End paper abstract -->
 
+<br/>
+<br/>
 
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Pipeline</h2>
+      <div class="item" style="text-align: center;">
+        <!-- Your image here -->
+        <img src="static/images/framework.png" alt="Framework" class="img-framework" width="600"/>
+        <h2 class="subtitle has-text-justified">
+          <b>Framework pipeline</b>: (1) First, images are loaded with the corresponding ground truth labels. (2) Pre-processing is done with image data augmentation techniques, namely horizontal flip and gaussian blur, followed by label conversion into a one-hot encoded form. Images and labels are then passed through CNN in the training phase, initialized using He Initializer and the weights of each kernel is updated using Adam optimizer and the focal loss function. (3) evaluation is performed which will produce a prediction class for each pixel. These predictions are then compared with the corresponding labels to calculate mean intersection over union accuracy. 
+        </h2>
+      </div>
+      <br/>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/arch-64.png" alt="Architecture 64" class="img-arch"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          <b>64 convolutional filters architecture.</b>
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/arch-128.png" alt="Architecture 128" class="img-arch"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          <b>128 convolutional filters architecture.</b>
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/arch-256.png" alt="Architecture 256" class="img-arch"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          <b>256 convolutional filters architecture.</b>
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
   </div>
 </div>
 </div>
 </section>
 <!-- End image carousel -->
 
-
-
+<br/>
+<br/>
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">Results</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <table>
+            <thead>
+              <tr>
+                <th>Architecture</th>
+                <th>Average prediction accuracy (Mean IoU)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>64 Filters</td>
+                <td>75.893%</td>
+              </tr>
+              <tr>
+                <td>128 Filters</td>
+                <td>77.431%</td>
+              </tr>
+              <tr>
+                <td>256 Filters</td>
+                <td>73.942%</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 class="subtitle has-text-centered">
+            <b>Average prediction accuracies on the validation set</b>
+          </h2>
+
+          <div class="item" style="text-align: center;">
+            <!-- Your image here -->
+            <img src="static/images/qualitative.png" alt="Framework" width="1000"/>
+            <h2 class="subtitle has-text-justified">
+              <b>Qualitative test results on validation data for each architecture</b>: from left to right: validation image, validation label, 64 filters prediction, 128 filters prediction, 256 filters prediction.
+            </h2>
+          </div>
+          <br/>
+          <br/>
+          <div class="item" style="text-align: center;">
+            <!-- Your image here -->
+            <img src="static/images/mockups.png" alt="Framework" width="1000"/>
+            <h2 class="subtitle has-text-justified">
+              <b>Mobile application mockup</b>: To better facilitate the prediction process, a web/mobile application is developed using Flutter that sends an Application Programming Interface (API) call to the server de- veloped using Flask. 
+            </h2>
           </div>
         </div>
       </div>
@@ -224,61 +234,29 @@
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3">Conclusion</h2>
+      <p>The proposed solution successfully performed semantic segmentation on the Bandung Cityscapes dataset with the most optimal model achieving the highest average accuracy of 77.431% on the validation set attained by the model with 128 convolutional filters, trained with 300 epochs and 0.0001 (10-4) learning rate. This model maintained an average training accuracy of 87.194%, average validation accuracy of 75.274%, and average difference between the two of 11.919% throughout the training process. However, this model still has a difference between training and validation accuracy which point to the risk of overfitting. The combination of epoch, learning, rate and the number of convolutional filters greatly affects the performance of the model. For real world usage, there needs to be an investigation regarding effective range and how detailed the predictions need to be in order to determine the best model.</p>
     </div>
   </div>
 </section>
 <!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@INPROCEEDINGS{9972006,
+        author={Alexander, Daniel and Kurniawan, Hans Christian and Afifudin, Irfin and Heryanto, Hery},
+        booktitle={2022 International Conference on Data and Software Engineering (ICoDSE)}, 
+        title={Application of Convolutional Neural Network for Semantic Segmentation of Bandung Urban Scenes}, 
+        year={2022},
+        volume={},
+        number={},
+        pages={12-17},
+        keywords={Training;Semantic segmentation;Computational modeling;Roads;Urban areas;Predictive models;Convolutional neural networks;computer vision;semantic segmentation;urban scenes;Convolutional Neural Network (CNN);DeepLabV3+},
+        doi={10.1109/ICoDSE56892.2022.9972006}}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->

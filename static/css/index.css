@@ -2,7 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-
 .footer .icon-link {
     font-size: 25px;
     color: #000;
@@ -33,7 +32,6 @@ body {
 
 .publication-banner {
   max-height: parent;
-
 }
 
 .publication-banner video {
@@ -94,7 +92,6 @@ body {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
-
     overflow: hidden;
     border-radius: 10px !important;
 }
@@ -112,6 +109,22 @@ body {
 
 .results-carousel {
   overflow: hidden;
+}
+
+.img-framework {
+  object-fit: cover;
+}
+
+.img-arch {
+  object-fit: cover;
+  width: 800px;
+}
+
+.item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .results-carousel .item {
@@ -133,5 +146,21 @@ body {
   font-size: smaller;
 }
 
+.subtitle {
+  margin-top: 8px;
+  font-size: 1rem;
+}
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
